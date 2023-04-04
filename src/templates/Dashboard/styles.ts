@@ -40,7 +40,7 @@ export const ModalList = styled.li`
 `;
 
 export const StyledButton = styled.button`
-  background: red;
+  background: violet;
   font-weight: bold;
   border: none;
   height: 40px;
@@ -52,9 +52,15 @@ export const StyledButton = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background: purple;
+  }
 `;
 export const ModalButton = styled.button`
-  background: red;
+  background: violet;
   font-weight: bold;
   border: none;
   height: 40px;
@@ -67,6 +73,11 @@ export const ModalButton = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background: purple;
+  }
 `;
 
 export const StyledImage = styled.img`

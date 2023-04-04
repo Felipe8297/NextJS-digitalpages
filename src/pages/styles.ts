@@ -5,7 +5,13 @@ export const Conteiner = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 `;
+
 export const Tittle = styled.h1`
   font-size: 80px;
 `;
