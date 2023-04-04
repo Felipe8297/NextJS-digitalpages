@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 import { Conteiner, StyledButton, Tittle } from "./styles";
 
-export default function Home() {
+const Home = () => {
   const { push } = useRouter();
 
   return (
@@ -13,4 +13,5 @@ export default function Home() {
       </StyledButton>
     </Conteiner>
   );
-}
+};
+export default Home;

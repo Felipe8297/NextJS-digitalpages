@@ -1,9 +1,10 @@
 import Dashboard from "templates/Dashboard";
 
-export default function TittlePage() {
+const TittlePage = () => {
   return (
     <>
       <Dashboard />
     </>
   );
-}
+};
+export default TittlePage;

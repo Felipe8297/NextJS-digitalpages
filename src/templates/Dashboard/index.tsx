@@ -15,7 +15,6 @@ import {
 import { getFruitslist, ListFruitsResponse } from "services/request";
 
 const Dashboard = () => {
-  //const [fruitsList, setFruitsList] = useState<ListFruitsResponse[]>([]);
   const [selectedFruit, setSelectedFruit] = useState<ListFruitsResponse | null>(
     null
   );
