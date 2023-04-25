@@ -1,6 +1,6 @@
 import router from "next/router";
 
-import { Conteiner, StyledButton, Tittle } from "./styles";
+import { Conteiner, StyledButton, Tittle } from "../styles/homeStyles";
 
 const Home = () => {
   return (
