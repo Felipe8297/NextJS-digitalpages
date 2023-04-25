@@ -14,6 +14,6 @@ import axios from "axios";
 export const getFruitslist = () => {
   return axios<ListFruitsResponse[]>({
     method: "GET",
-    url: "http://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json",
+    url: "https://pocs.digitalpages.com.br/mock/api/fruits-api/fruits.json",
   });
 };
